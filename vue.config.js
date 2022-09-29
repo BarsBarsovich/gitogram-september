@@ -1,3 +1,3 @@
-module.exports = {
-  publicPath: "/gitogram-september/dist/",
-};
+// module.exports = {
+//   publicPath: "/gitogram-september/dist/",
+// };
