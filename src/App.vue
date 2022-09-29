@@ -22,6 +22,11 @@ body {
 body {
   margin: 0;
 }
+
+p {
+  margin: 0;
+}
+
 #app {
   height: 100px;
   font-family: Avenir, Helvetica, Arial, sans-serif;

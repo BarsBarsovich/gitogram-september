@@ -28,7 +28,6 @@ export default {
   methods: {
     onTogglerClick(isShow) {
       this.isShowMessage = isShow;
-      console.log("Toggled", isShow);
     },
   },
 };

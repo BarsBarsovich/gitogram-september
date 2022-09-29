@@ -1,5 +1,4 @@
-<template>
-  <h1>test build</h1>
+<template>  
   <RepositoryList></RepositoryList>
 </template>
 

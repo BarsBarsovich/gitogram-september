@@ -1,9 +1,14 @@
 <template>
   <div class="repository-list">
     <div class="repository-list__container">
-      <RepositoryItem key="0">
-        <div class="wrapppe">
-          <RepositoryDescription />
+      <RepositoryItem v-for="n in 5" :key="n">
+        <div class="wrappper">
+          <RepositoryDescription
+            :reponame="'test'"
+            :repodescription="'desc'"
+            :likesCount="4"
+            :followers="7"
+          />
         </div>
       </RepositoryItem>
     </div>
