@@ -1,12 +1,15 @@
-<template>  
-  <RepositoryList></RepositoryList>
+<template>
+  <!-- <RepositoryList></RepositoryList> -->
+  <SliderItem>
+    <h1>Some content here</h1>
+  </SliderItem>
 </template>
 
 <script>
-import RepositoryList from "@/components/RepositoryList";
+import SliderItem from "./SliderItem/SliderItem.vue";
 
 export default {
   name: "feeds",
-  components: { RepositoryList },
+  components: { SliderItem },
 };
 </script>

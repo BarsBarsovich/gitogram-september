@@ -11,12 +11,18 @@
 
 <script>
 export default {
-  name: "Avatar",
-  props: ["avatarUrl", "nickname"],
+  name: "avatar",
+  props: {
+    avatarUrl: String,
+    nickname: String,
+  },
 };
 </script>
 
 <style scoped>
+.avatar__text {
+  color: #000;
+}
 .avatar {
   display: flex;
   align-items: center;
