@@ -1,15 +1,13 @@
 <template>
-  <Feeds />
+  <Navigation />
+  <router-view />
 </template>
 
 <script>
-import Feeds from "./components/Feeds.vue";
-
+import Navigation from './components/mocks/Navigation.vue';
 export default {
   name: "App",
-  components: {
-    Feeds,
-  },
+  components: { Navigation },
 };
 </script>
 
@@ -35,5 +33,17 @@ p {
   text-align: center;
   color: #2c3e50;
   /* margin-top: 60px; */
+}
+
+ul, li {
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 </style>
